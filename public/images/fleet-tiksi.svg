@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="Сухогруз «Тикси»">
+  <defs>
+    <linearGradient id="bg-fleettiksi" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#04182A"/>
+      <stop offset="55%" stop-color="#0A3757"/>
+      <stop offset="100%" stop-color="#106094"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg-fleettiksi)"/>
+  <path d="M0 280 C 396 160, 792 400, 1200 280
+           L 1200 800 L 0 800 Z" fill="#ffffff" opacity="0.04"/>
+  <path d="M0 520 C 396 640, 792 400, 1200 520
+           L 1200 800 L 0 800 Z" fill="#16BEDC" opacity="0.05"/>
+  <text x="36" y="672" font-family="Arial, sans-serif" font-size="16" fill="#7BDCEE" letter-spacing="2" opacity="0.9">ЗАГЛУШКА — ТРЕБУЕТСЯ ФОТО</text>
+  <text x="36" y="720" font-family="Arial, sans-serif" font-size="38" fill="#FFFFFF" font-weight="700">Сухогруз «Тикси»</text>
+  <text x="36" y="760" font-family="Arial, sans-serif" font-size="16" fill="#93C6E8">fleet-tiksi.svg</text>
+</svg>

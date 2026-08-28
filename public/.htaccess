@@ -1,0 +1,20 @@
+# Редиректы со старых .php-адресов на новую структуру сайта.
+# Нужен только при статическом экспорте (output: 'export') на обычном
+# Apache-хостинге — при деплое на Node-сервере эти правила уже покрыты
+# next.config.ts (см. redirects()) и этот файл не используется.
+RewriteEngine On
+
+RewriteRule ^index\.php$ / [R=301,L]
+RewriteRule ^service/index\.php$ /services [R=301,L]
+RewriteRule ^service/multimodal\.php$ /services/multimodal [R=301,L]
+RewriteRule ^service/customs\.php$ /services/customs [R=301,L]
+RewriteRule ^service/avia\.php$ /services/avia [R=301,L]
+RewriteRule ^service/sourcing\.php$ /services/sourcing [R=301,L]
+RewriteRule ^service/industrial\.php$ /services/industrial [R=301,L]
+RewriteRule ^service/domestic\.php$ /services/domestic [R=301,L]
+RewriteRule ^service/storage\.php$ /services/storage [R=301,L]
+RewriteRule ^fleet\.php$ /fleet [R=301,L]
+RewriteRule ^about\.php$ /about [R=301,L]
+RewriteRule ^contacts\.php$ /contacts [R=301,L]
+RewriteRule ^Privacy_policy_njordgroup_ru\.pdf$ /legal/privacy [R=301,L]
+RewriteRule ^User_agreement_njordgroup_ru\.pdf$ /legal/terms [R=301,L]

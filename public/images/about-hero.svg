@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" role="img" aria-label="О компании — порт">
+  <defs>
+    <linearGradient id="bg-abouthero" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#04182A"/>
+      <stop offset="55%" stop-color="#0A3757"/>
+      <stop offset="100%" stop-color="#106094"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="700" fill="url(#bg-abouthero)"/>
+  <path d="M0 244 C 528 140, 1056 350, 1600 244
+           L 1600 700 L 0 700 Z" fill="#ffffff" opacity="0.04"/>
+  <path d="M0 455 C 528 560, 1056 350, 1600 455
+           L 1600 700 L 0 700 Z" fill="#16BEDC" opacity="0.05"/>
+  <text x="48" y="588" font-family="Arial, sans-serif" font-size="22" fill="#7BDCEE" letter-spacing="2" opacity="0.9">ЗАГЛУШКА — ТРЕБУЕТСЯ ФОТО</text>
+  <text x="48" y="630" font-family="Arial, sans-serif" font-size="51" fill="#FFFFFF" font-weight="700">О компании — порт</text>
+  <text x="48" y="665" font-family="Arial, sans-serif" font-size="22" fill="#93C6E8">about-hero.svg</text>
+</svg>
